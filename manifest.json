@@ -1,0 +1,14 @@
+{
+    "name": "bookmeter-util",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Bookmeter utility tool",
+    "content_scripts": [{
+        "matches": [
+            "https://bookmeter.com/books/*"
+        ],
+        "js": [
+            "content.js"
+        ]
+    }]
+}
